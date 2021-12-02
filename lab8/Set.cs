@@ -10,7 +10,7 @@ namespace lab8
     public class Set<T> : ICollection<T> where T:class
     {
         private List<T> _items = new List<T>();
-        private string path = @"d:\1.txt";
+        private string path = @"c:\1\1.txt";
         public int Count => _items.Count;
         static Random rnd = new Random();
 
