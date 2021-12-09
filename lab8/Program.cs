@@ -36,11 +36,4 @@ namespace lab8
             Console.Read();
         }
     }
-
-    public interface ICollection<T>
-    {
-        void Add(T t);
-        void Delete(T item);
-        T Get();
-    }
 }
