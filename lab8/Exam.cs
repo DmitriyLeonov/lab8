@@ -32,7 +32,7 @@ namespace lab8
             return this.Theme;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             return "Theme";
         }
